@@ -1,0 +1,4 @@
+student_id,name,age,email,phone,errors
+1006,Huda Ahmed,,huda@gmail.com,777987654,age is required
+1007,Khaled Hassan,150.0,khaled@gmail.com,777111222,age must be between 16 and 100
+1008,Noura Ali,21.0,noura@gmail.com,777333444,duplicate student_id
