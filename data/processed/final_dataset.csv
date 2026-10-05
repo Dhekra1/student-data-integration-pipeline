@@ -1,9 +1,9 @@
-student_id,name,age,email,phone,attendance,gpa,status,course_id,course_name,credit_hours,semester,score
-1001,Dhekra alhussaini,21,dhekra@gmail.com,777123456,92,3.45,Active,1,Python Programming,3,2026-1,88.0
-1001,Dhekra alhussaini,21,dhekra@gmail.com,777123456,92,3.45,Active,2,Database Systems,3,2026-1,91.0
-1002,Sara Mohammed,22,sara@gmail.com,771234567,88,3.8,Active,1,Python Programming,3,2026-1,95.0
-1002,Sara Mohammed,22,sara@gmail.com,771234567,88,3.8,Active,3,Artificial Intelligence,4,2026-1,89.0
-1003,Omar Hassan,20,omar@gmail.com,733456789,65,2.7,Active,2,Database Systems,3,2026-1,72.0
-1004,Mona Ali,19,mona@gmail.com,711234567,78,3.2,Active,1,Python Programming,3,2026-1,84.0
-1005,Ali Saleh,25,ali@gmail.com,700123456,,,,,,,,
-1008,Noura Ali,21,noura@gmail.com,777333444,,,,,,,,
+student_id,name,age,email,phone,attendance,gpa,status,course_id,course_name,credit_hours,semester,score,source,source_url,retrieved_at
+1001,Dhekra alhussaini,21,dhekra@gmail.com,777123456,92,3.45,Active,1,Python Programming,3,2026-1,88.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1001,Dhekra alhussaini,21,dhekra@gmail.com,777123456,92,3.45,Active,2,Database Systems,3,2026-1,91.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1002,Sara Mohammed,22,sara@gmail.com,771234567,88,3.8,Active,1,Python Programming,3,2026-1,95.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1002,Sara Mohammed,22,sara@gmail.com,771234567,88,3.8,Active,3,Artificial Intelligence,4,2026-1,89.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1003,Omar Hassan,20,omar@gmail.com,733456789,65,2.7,Active,2,Database Systems,3,2026-1,72.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1004,Mona Ali,19,mona@gmail.com,711234567,78,3.2,Active,1,Python Programming,3,2026-1,84.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1005,Ali Saleh,25,ali@gmail.com,700123456,0,0.0,,,,0,,0.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00
+1008,Noura Ali,21,noura@gmail.com,777333444,0,0.0,,,,0,,0.0,csv+api+database,multi-source,2026-10-05T14:13:14.616086+00:00

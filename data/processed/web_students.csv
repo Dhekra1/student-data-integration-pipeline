@@ -1,0 +1,6 @@
+student_id,name,city,gpa,skills,source,source_url,retrieved_at
+2001,Ali Hassan,Sanaa,3.75,"Python, SQL",web_scraping,C:\Users\Dhekra\Desktop\student_data_integration_pipeline\data\raw\web_students.html,2026-10-05T14:13:14.815971+00:00
+2002,Fatima Ahmed,Aden,3.92,"Python, Machine Learning",web_scraping,C:\Users\Dhekra\Desktop\student_data_integration_pipeline\data\raw\web_students.html,2026-10-05T14:13:14.815971+00:00
+2003,Yousef Saleh,Sanaa,3.45,"JavaScript, React",web_scraping,C:\Users\Dhekra\Desktop\student_data_integration_pipeline\data\raw\web_students.html,2026-10-05T14:13:14.815971+00:00
+2004,Layla Nasser,Taiz,3.88,"Data Analysis, R",web_scraping,C:\Users\Dhekra\Desktop\student_data_integration_pipeline\data\raw\web_students.html,2026-10-05T14:13:14.815971+00:00
+2005,Omar Fadel,Hodeidah,3.2,"Java, Spring",web_scraping,C:\Users\Dhekra\Desktop\student_data_integration_pipeline\data\raw\web_students.html,2026-10-05T14:13:14.815971+00:00

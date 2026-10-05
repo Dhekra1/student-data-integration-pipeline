@@ -1,0 +1,26 @@
+[
+  {
+    "attendance": 92,
+    "gpa": 3.45,
+    "status": "Active",
+    "student_id": 1001
+  },
+  {
+    "attendance": 88,
+    "gpa": 3.8,
+    "status": "Active",
+    "student_id": 1002
+  },
+  {
+    "attendance": 65,
+    "gpa": 2.7,
+    "status": "Active",
+    "student_id": 1003
+  },
+  {
+    "attendance": 78,
+    "gpa": 3.2,
+    "status": "Active",
+    "student_id": 1004
+  }
+]

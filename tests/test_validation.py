@@ -1,10 +1,12 @@
-from app.validation.validate_csv import validate_csv_data
-from app.sources.csv_source import extract_csv
+from pathlib import Path
+
+from src.extract import extract_csv
+from src.validate import validate_csv_data, validate_student_record
 
 
 def test_duplicates_removed():
 
-    data = extract_csv("data/raw/students.csv")
+    data = extract_csv(Path("data/raw/students.csv"))
 
     valid_students, rejected_students = validate_csv_data(data)
 
@@ -26,7 +28,7 @@ def test_duplicates_removed():
 
 def test_invalid_records_rejected():
 
-    data = extract_csv("data/raw/students.csv")
+    data = extract_csv(Path("data/raw/students.csv"))
 
     valid_students, rejected_students = validate_csv_data(data)
 
@@ -37,3 +39,27 @@ def test_invalid_records_rejected():
 
     assert 1006 in rejected_ids
     assert 1007 in rejected_ids
+
+
+def test_student_validation_accepts_a_valid_record():
+    student = {
+        "student_id": 2001,
+        "name": "Test Student",
+        "age": 21,
+        "email": "test.student@example.com",
+        "phone": "123456789",
+    }
+
+    assert validate_student_record(student) == []
+
+
+def test_student_validation_rejects_an_out_of_range_age():
+    student = {
+        "student_id": 2002,
+        "name": "Invalid Age",
+        "age": 101,
+        "email": "invalid.age@example.com",
+        "phone": "123456789",
+    }
+
+    assert "age must be between 16 and 100" in validate_student_record(student)

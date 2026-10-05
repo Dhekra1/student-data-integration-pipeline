@@ -1,0 +1,16 @@
+{
+  "api_url": "http://127.0.0.1:5000/students",
+  "paths": {
+    "raw_data": "data/raw/students.csv",
+    "staging_data": "data/staging/extracted_students.csv",
+    "valid_students": "data/processed/valid_students.csv",
+    "final_dataset": "data/processed/final_dataset.csv",
+    "rejected_records": "data/rejected/rejected_records.csv",
+    "database": "database/students.db",
+    "log_file": "logs/pipeline.log"
+  },
+  "database": {
+    "table_name": "final_students",
+    "if_exists": "replace"
+  }
+}

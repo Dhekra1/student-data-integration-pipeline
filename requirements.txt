@@ -1,4 +1,26 @@
-pandas
-requests
-pytest
-flask
+
+# ===== Core Data Processing =====
+pandas==2.2.0
+numpy==1.26.4
+
+# ===== HTTP Requests (for APIs) =====
+requests==2.31.0
+
+# ===== Web Scraping (Unit 7) =====
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# ===== Relational Database =====
+SQLAlchemy==2.0.25
+
+# ===== MongoDB (Unit 8) =====
+pymongo==4.6.1
+
+# ===== Mock API =====
+Flask==3.1.0
+
+# ===== Environment Variables =====
+python-dotenv==1.0.0
+
+# ===== Testing =====
+pytest==9.1.1
