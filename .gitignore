@@ -52,14 +52,7 @@ logs/*
 # ============================================================
 # Data folders (keep structure, ignore contents)
 # ============================================================
-data/raw/*
-!data/raw/.gitkeep
-data/staging/*
-!data/staging/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/rejected/*
-!data/rejected/.gitkeep
+
 
 # ============================================================
 # Reports
